@@ -1,0 +1,11 @@
+# Node dependencies (frontend & backend)
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Builds
+client/build
+client/dist
+
