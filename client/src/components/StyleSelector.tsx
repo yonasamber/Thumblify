@@ -20,7 +20,7 @@ const StyleSelector = ({
   isOpen: boolean;
   setIsOpen: (open: boolean) => void;
 }) => {
-  const styleDescriptions: Record<ThumbnailStyle, String> = {
+  const styleDescriptions: Record<ThumbnailStyle, string> = {
     "Bold & Graphic": "High contrast, bold typography, striking visuals",
     Minimalist: "Clean, simple, lots of white space",
     Photorealistic: "Photo-based, natural looking",
